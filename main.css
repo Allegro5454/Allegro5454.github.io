@@ -35,6 +35,7 @@ body::before {
   display: flex;
   color: #3d663d;
 }
+
 #sidebar {
   position: fixed;
   background-color: #121212;
@@ -190,7 +191,6 @@ p {
   line-height: 1.5;
 }
 .move {
-  font-size: 1.3em;
   text-decoration: none;
   color: #888;
   transition: color 0.3s ease;
@@ -208,4 +208,7 @@ article {
   font-size: 1.3em;
   text-decoration: none;
   color: #a0a0a0;
+}
+p {
+  font-size: 1.5em;
 }
