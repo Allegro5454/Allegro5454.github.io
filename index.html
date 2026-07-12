@@ -54,7 +54,7 @@
         <article>
           <h3>Secure data eraser</h3>
           <p>
-            Bash script that securely wipes data from selected block devices
+            A Bash script that securely wipes data from selected block devices
             using appropriate erase methods depending on drive capabilities
             (TRIM/blkdiscard for SSDs, zero-fill for HDDs). Designed for
             standard home systems. No support for LVM or RAID configurations.
@@ -67,9 +67,23 @@
           >
         </article>
         <article>
+          <h3>RSYNC Backup Manager </h3>
+          <p>
+            A Bash script that synchronizes files across local or remote directories via rsync.
+            It is built around a fail-fast system so if any problems occur, they will be written into a log file and the script terminates.
+          </p>
+          <a
+            class="move"
+            href="https://github.com/Allegro5454/bash/tree/main/07.%20Backup"
+            target="blank"
+            >find code here</a
+          >
+        </article>
+        
+        <article>
           <h3>CPU&RAM logger</h3>
           <p>
-            Bash script that monitors resource usage(CPU & Memory), it logs them
+            A Bash script that monitors resource usage(CPU & Memory), it logs them
             into a local file and highlights when the 80% limit is exceeded.
           </p>
           <a
